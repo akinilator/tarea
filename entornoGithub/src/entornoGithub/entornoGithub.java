@@ -27,7 +27,7 @@ public class entornoGithub extends Application {
 	public void start(Stage stage) {
 
 
-//VERSION 11111111111111111111111111111111111111111111111111111111111111111111111111111111111	
+//VERSION 11111111111111111111111111111111111111111111111111111111111111111111111111111111111
 		BorderPane borde = new BorderPane();
 
 		//creamos un grid pane
@@ -65,7 +65,6 @@ public class entornoGithub extends Application {
 		Button enviar = new Button("enviar");
 
 		//FORMULARIO*******************************************************************
-
 		//contraseña
 		PasswordField passwordField = new PasswordField();
 		passwordField.setPromptText("contraseña: ");
@@ -113,8 +112,8 @@ public class entornoGithub extends Application {
 
 		stage.setScene(scene);
 		stage.show();
-		
-		
+
+
 
 
 }
