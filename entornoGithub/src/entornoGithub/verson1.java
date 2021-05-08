@@ -21,7 +21,7 @@ import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
-public class entornoGithub extends Application {
+public class verson1 extends Application {
 
 	@Override
 	public void start(Stage stage) {
@@ -113,8 +113,6 @@ public class entornoGithub extends Application {
 
 		stage.setScene(scene);
 		stage.show();
-		
-		
 
 
 }
@@ -131,5 +129,4 @@ public class entornoGithub extends Application {
 
 	public static void main(String[] args) {
 		launch(args);
-	}
-}
+	} }
