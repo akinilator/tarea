@@ -1,4 +1,4 @@
-package dsadsds;
+package entornoGithub;
 
 import javafx.application.Application;
 import javafx.geometry.Insets;
@@ -8,6 +8,7 @@ import javafx.scene.control.CheckBox;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.RadioButton;
+import javafx.scene.control.ScrollPane;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.control.ToggleButton;
@@ -102,9 +103,12 @@ public class entornoGithub extends Application {
 		//ponemos el panel de grid en el centro de borde panel
 		borde.setCenter(grid);
 
+//nueva funcion
 
-//MODIFICANDO EL CÓDIGO IAKFOASSASASFOSAFKSOAFDKSAÑOFKSOÑFKSAOÑFKASÑLFSAKLF
-
+		Button guardar = new Button("Guardar");
+		guardar.setOnAction(value->{
+			stage.close();
+		});
 
 
 
