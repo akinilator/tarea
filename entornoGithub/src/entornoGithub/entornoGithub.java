@@ -1,4 +1,4 @@
-package entornoGithub;
+package dsadsds;
 
 import javafx.application.Application;
 import javafx.geometry.Insets;
@@ -27,7 +27,7 @@ public class entornoGithub extends Application {
 	public void start(Stage stage) {
 
 
-//VERSION 2222222222222222222222222ññ.222222222222222222222222222222222222222222222222222
+
 		BorderPane borde = new BorderPane();
 
 		//creamos un grid pane
@@ -65,6 +65,7 @@ public class entornoGithub extends Application {
 		Button enviar = new Button("enviar");
 
 		//FORMULARIO*******************************************************************
+
 		//contraseña
 		PasswordField passwordField = new PasswordField();
 		passwordField.setPromptText("contraseña: ");
@@ -112,8 +113,6 @@ public class entornoGithub extends Application {
 
 		stage.setScene(scene);
 		stage.show();
-
-//YHThthtrh
 
 
 }
