@@ -29,6 +29,7 @@ public class entornoGithub extends Application {
 
 
 
+
 		BorderPane borde = new BorderPane();
 
 		//creamos un grid pane
@@ -67,6 +68,13 @@ public class entornoGithub extends Application {
 
 		//FORMULARIO*******************************************************************
 
+		//nueva funcion ejercicio 7
+
+		PasswordField passwordField2 = new PasswordField();
+		passwordField2.setPromptText("contraseña de la contraseña: ");
+		Text txtcontraseña2 = new Text("contraseña de la contraseña: ");
+
+
 		//contraseña
 		PasswordField passwordField = new PasswordField();
 		passwordField.setPromptText("contraseña: ");
@@ -98,6 +106,19 @@ public class entornoGithub extends Application {
 		grid.setPadding(new Insets(8.0,8.0,8.0,8.0));
 		grid.setHgap(10);
 		grid.setVgap(10);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 		//ponemos el panel de grid en el centro de borde panel
