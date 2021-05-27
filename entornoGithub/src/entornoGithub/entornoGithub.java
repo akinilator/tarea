@@ -112,10 +112,10 @@ public class entornoGithub extends Application {
 
 
 
+		//ESTA ES LA RAMA MASTER LA ORIGINAL
 
 
-
-
+		grid.add
 
 
 
